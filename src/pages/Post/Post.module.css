@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 87%;
+    margin: 100px auto;
+    height: 70vh;
+    overflow-y: auto;
+    background-color: rgb(184, 184, 184);
+}
+
+.posts {
+    width: 87%;
+    height: 20vh;
+    margin: 50px auto;
+    border: 3px ridge black;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    max-height: calc(80vh - 6px);
+    overflow-y: auto;
+}
+
+.posts .post {
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.posts button {
+    width: 100px;
+    height: 20px;
+    align-self: center;
+}
+
+h1,
+h2,
+p {
+    width: 100%;
+}

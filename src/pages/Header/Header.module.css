@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #252525;
+    padding: 25px 0px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 87%;
+    margin: 0 auto;
+}
+
+.nav .navbar{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    align-items: center;
+}
+
+.navbar li a{
+    color: #ffffff;
+    text-decoration: none;
+}
